@@ -2,9 +2,9 @@
 This project creates a mode code translator usign Python3.7 and includes unittests to test different input samples.
 
 BACKGROUND: 
-Initially, when I started programming in Python, I had wondered what was the use for unittests. Since it was possible to run my simple programs with different inputs and tally the outputs with the expected results, what could be the benefit of creating a separate class for running the unittests with the same input samples as in the manual tests?
+Initially, when I started programming in Python, I had wondered as to what could be the use for unittests. Since it was possible to run my simple programs with different inputs and tally the outputs with the expected results, I did not see the benefits of creating a separate module for running unittests, particularly so as the module had to be provided with the same input samples as in the manual tests.
 
-As my programs became more complex and writing to and reading from files, I found out that I was spending much of my manual testing time opening data files and writing input data to them. Some more time was spent in checking data from output files. But the file creation process in itself was not what I wanted to tested every time; the objective of checking was some function in the program that produced the data. 
+As my programs became more complex, data processing steps now included writing to and reading from files, and I found out that I was spending much of my manual testing time opening data files and writing input data to them. Some more time was spent in checking data from output files. But the file-creation process in itself was not my desired test object. every time; the actual intention being to check whether some function in the program worked in the manner that it was designed to work. 
 
 By switching over to the unittests way of testing, I was able to do away with having to write to data files and check the contents of the generated output data files. What was more, a variety of sample inputs and expected outputs for each of the inputs could now all be written in one file and run at one go. No more needless multiple runs of the program for each input, as was happening in the manual testing. 
 
