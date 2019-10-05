@@ -43,4 +43,4 @@ and output is written to another file.
 Input file is saved in the same directory as the program.
 
 Sample input files are provided.
-(Choose input files for version 3 to run with this version.)
+(Choose input files: EnglishText.txt and MorseCode_v3.txt to run with this version.)
