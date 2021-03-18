@@ -1,5 +1,5 @@
 # morse-translator-unittesting
-This project creates a Mode Code translator using Python 3.7 and includes unittests to test different input samples.
+This project creates a Morse Code translator using Python 3.7 and includes unittests to test different input samples.
 
 BACKGROUND 
 Initially, when I started programming in Python, I had wondered as to what could be the use for unittests. Since it was possible to run my simple programs with different inputs and tally the outputs with the expected results, I did not see the benefits of creating a separate module for running unittests, particularly so as the module had to be provided with the same input samples as in the manual tests.
